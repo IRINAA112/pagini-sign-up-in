@@ -1,0 +1,128 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.leftside{
+    justify-content: space-between;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+}
+
+.main-image{
+    padding-top: 120px;
+    width: 40%;
+}
+
+.create{
+    font-size: 21px;
+    line-height: 70px;
+    color: black;
+}
+
+.rightside{
+    
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+
+.title{
+    padding-top: 50px;
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.icon{
+    height: 18px;
+    width: 18px;
+}
+
+.form{
+    font-size: 21px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px;
+    border-color: black;
+}
+
+.inputbox{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 18px 18px 0 18px;
+    outline: none;
+    font-size: 21px;
+}
+
+.btn-container{
+    margin-left: 30px;
+    justify-content: center;
+    padding: 12px 12px 12px 12px;
+}
+
+.check{
+    width: 18px;
+    height: 18px;
+}
+
+.signinbtn{
+    padding: 15px 36px;
+    border: none;
+    border-radius: 9px;
+    font-size: 21px;
+    color: white;
+    background-color: rgb(127, 179, 241);
+}
+
+.other-choice{
+    font-size: 21px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fb{
+    margin: 16px 8px;
+    border: none;
+    border-radius: 6px;
+    background-image: url("fb.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 35px;
+    height: 35px;
+}
+
+#twt{
+    margin: 16px 8px;
+    border: none;
+    border-radius: 6px;
+    background-image: url("twt.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 35px;
+    height: 35px;
+}
+
+#gm{
+    margin: 16px 8px;
+    border: none;
+    border-radius: 6px;
+    background-image: url("gm.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 35px;
+    height: 35px;
+}
